@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F7A800;
+    font-family: 'roboto', sans-serif;
+}
+.container{
+    width: 900px;
+    height: 550px;
+    /* background: rgb(138, 6, 6); */
+    background: black;
+    box-shadow: 0 40px 100px rgba(143, 110, 110, 0.5);
+    padding: 30px;
+    overflow: hidden;
+    color: #d5eebb;
+}
+p{
+    font-family: 'Zen Loop', cursive;
+    display: flex;
+    font-size: 40px;
+    justify-content: center;
+    color:red;
+    text-decoration: underline;
+}
+.buttons {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    font-size: 30px;
+    width:360px;
+    font-weight: bold;
+    font-family: 'Zen Loop', cursive;
+    margin-top: 60px;
+    cursor: pointer;
+}
+.type1,.type2,.type3,.type4{
+    color: rgba(0, 0, 0, 0.5);
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: cornsilk;
+    padding: 10px 30px;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+.type1:hover{
+    color:blanchedalmond;
+    background-color: red;
+}
+.type2:hover{
+    color:blanchedalmond;
+    background-color: red;
+}
+.type3:hover{
+    color:blanchedalmond;
+    background-color: red;
+}
+.type4:hover{
+    color:blanchedalmond;
+    background-color: red;
+}
+@media(max-width:450px)
+{
+    .buttons{
+        font-size: 30px;
+        width: 280px;
+     }
+    .type1,.type2,.type3,.type4{
+        padding: 12px 30px;
+    }
+    p{
+        font-size: 30px;
+    }
+}
+@media(max-width:430px){
+    .container{
+        width: 352px;
+    }
+    p{
+        font-size:20px;
+    }
+}

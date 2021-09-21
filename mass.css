@@ -1,0 +1,60 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    background-repeat: no-repeat;
+    overflow-y: hidden;
+    background-color: #F7A800;
+  }
+  #clearButton {
+    border: solid black 2px;
+    font-weight: bold;
+    margin: 10px auto 20px auto;
+    padding: 7px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+  }
+#clearButton:hover{
+    background-color: #F7A800;
+  }
+#unit {
+    display: table;
+    margin: 0 auto;
+    margin-top: 2px;
+  }
+#title {
+    text-decoration: underline;
+  }
+#content {
+    margin: 50px auto 0 auto;
+    width: 600px;
+    border: solid 5px;
+    font-family: sans-serif;
+    background: url('https://c2.staticflickr.com/8/7248/7501404260_e29f728a4a_b.jpg');
+    text-align: center;
+  }
+h1 {
+    font-size: 28px;
+  }
+input {
+    width: 80px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: solid 2px;
+    text-align: center;
+    font-size: 17px;
+  }
+label {
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    text-align: right;
+    margin: 20px auto 40px auto;
+    font-weight: bold;
+}
+@media (max-width: 425px) {
+    #content {
+        margin-top: 43px;
+      width: 345px;
+    }
+}
